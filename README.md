@@ -24,8 +24,7 @@ An ML-powered livestock health monitoring prototype that analyzes cattle vitals 
 * **Environment:** Google Colab
 
 ## 📊 Dataset & Model Performance
-
-The model was trained on a Kaggle cattle dataset featuring 178 detailed records of cattle vitals. The Random Forest model achieves **100% test accuracy** across all stratified health classes (Healthy, Fever, Severe Fever, Lameness, Respiratory Infection) in the simulated environment.
+The model was trained on a Kaggle cattle dataset featuring 178 detailed records of cattle vitals. It is important to note that **the dataset size is highly limited and exhibits significant class imbalance**, with the vast majority of records representing healthy cattle. Consequently, the model's ability to generalize to a broader, real-world population is constrained. Further data collection across diverse, real-world health conditions is necessary to achieve robust predictive reliability.
 
 ## 💻 How to Run
 
